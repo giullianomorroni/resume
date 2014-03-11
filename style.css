@@ -97,13 +97,11 @@ ul li[data-icon]:before {
 /*
  * General rules
  */
-html {
-	background: url('wood_pattern.jpg');
-	height: 100%;
-}
-
 
 body {
+    background: url('wood_pattern.jpg');
+    background-repeat:repeat-x;
+    background-attachment:fixed;
 }
 #main-container {
 	max-width: 960px;
@@ -119,6 +117,7 @@ section {
 	padding-bottom: 10px;
 	margin-bottom: 80px;
 }
+
 .section-title {
 	padding: 20px 0;
 	padding-left: 15%;
