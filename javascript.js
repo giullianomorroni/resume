@@ -99,7 +99,6 @@ $(window).load(function() {
 		var timeStart = parseInt(($(this).data('start') + "").split('-')[0], 10);
 		var timeEnd = parseInt(($(this).data('end') + "").split('-')[0], 10);
 		var years = timeEnd - timeStart;
-		
 		var i = 0;
 		for(i; i <= timeEnd - timeStart - 1; i++) {
 			$(this).find('.the-lines').append('<div class="line" style="left:' + (i  * 100 / years) + '%;"></div>');
